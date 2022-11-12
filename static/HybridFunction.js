@@ -6,7 +6,7 @@ function View_Today_SchoolMeal() {
             Android.VTS();
         }
         else {//if(IorA.indexOf("iphone") !== -1){
-            window.webkit.messageHandlers.VTS.postMessage();
+            window.webkit.messageHandlers.VTS.postMessage("VTS");
         }
     } catch (e) {
         Notiflix.Report.init({
