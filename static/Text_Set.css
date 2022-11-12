@@ -1,29 +1,24 @@
 @font-face {
+	font-family: 'GothicA1-Light';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/GothicA1-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: 'GmarketSansBold';
 	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'GmarketSansMedium';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'GmarketSansLight';
-	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 * {
 	word-break: keep-all;
-	font-family: 'GmarketSansMedium';
+	font-weight: 600;
 }
 
 p{
-	font-family: 'GmarketSansLight';
+	font-weight: 100;
 }
 
 #title h1{
@@ -32,7 +27,7 @@ p{
 }
 
 #title h3{
-	font-family: 'GmarketSansLight';
+	font-weight: 100;
 }
 
 #tp{
