@@ -3,10 +3,10 @@ function View_Today_SchoolMeal() {
 
     try {
         if(IorA.indexOf("android") !== -1){
-            Android.VTS(value);
+            Android.VTS();
         }
         else {//if(IorA.indexOf("iphone") !== -1){
-            window.webkit.messageHandlers.VTS(value);
+            window.webkit.messageHandlers.VTS();
         }
     } catch (e) {
         Notiflix.Report.init({
