@@ -1,4 +1,6 @@
 function View_Today_SchoolMeal() {
+    var IorA = navigator.userAgent.toLowerCase();
+
     try {
         if(IorA.indexOf("android") !== -1){
             Android.VTS(value);
